@@ -1,0 +1,4 @@
+ctrl+shift+R -view only html written code without design.
+ctrl+i - starter html code of vs code.
+alt+l+O - open live server in vs code.
+ctrl+shift+c - open inspect of chrome.

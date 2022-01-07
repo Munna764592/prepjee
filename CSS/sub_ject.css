@@ -1,0 +1,233 @@
+.cards {
+    border-radius: 7px;
+    padding: 0.6rem;
+    margin: 2rem;
+    margin-bottom: -1.7rem;
+    background-color: #e9ecef;
+}
+
+#phyInput,
+#mathInput,
+#cheInput {
+    background-color: transparent;
+    border-radius: 1.25rem;
+    color: rgb(86, 202, 154);
+    border: 2px solid rgb(101, 103, 223);
+    outline: none;
+    padding: 7px;
+    margin-top: 25px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.phyinqus,
+.mathinqus,
+.cheinqus {
+    float: right;
+    justify-content: right;
+    width: 270px;
+}
+
+.searchche {
+    width: 78%;
+    float: right;
+}
+
+.opt_select {
+    width: fit-content;
+    border: none;
+}
+
+.qus_desc {
+    font-size: 14px;
+    font-weight: 480;
+}
+
+.subqus_img {
+    width: fit-content;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.searchphy {
+    width: 82%;
+    float: right;
+}
+
+.searchmath {
+    width: 73%;
+    float: right;
+}
+
+#head_link {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.quslink {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.head_sol {
+    font-family: 'Titillium Web', sans-serif;
+    background: linear-gradient(to right, rgb(117, 236, 230), rgb(13, 140, 165));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.op_circle {
+    height: 27px;
+    width: 27px;
+    border: 2px solid rgb(163, 162, 162);
+    border-radius: 60px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-right: 5px;
+}
+
+#corr_icon {
+    margin: 0px;
+    padding: 0px;
+    width: 10px;
+    color: green;
+    margin-right: 4px;
+    margin-top: 6px;
+    transition: 0.25s;
+}
+
+#incorr_icon {
+    margin: 0px;
+    padding: 0px;
+    width: 10px;
+    color: red;
+    margin-top: 5px;
+    transition: 0.25s;
+}
+
+.opt_design {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    cursor: pointer;
+    background-color: #e9ecef;
+    font-size: 14px;
+}
+
+.opt_select {
+    background-color: #e9ecef;
+}
+
+.bttns {
+    font-weight: 400;
+    float: right;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgb(37, 197, 77);
+    border-radius: 25px;
+    padding: 0.1rem 0.3rem;
+    font-size: 1rem;
+}
+
+.subopt_img {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bttns:hover {
+    text-decoration: none;
+}
+
+.bttnac {
+    color: green;
+}
+
+.btnsol {
+    margin-bottom: 35px;
+}
+
+#mainqus {
+    min-height: 500px;
+}
+
+.headingp {
+    display: flex;
+}
+
+.headingp h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, rgb(117, 236, 230), rgb(13, 140, 165));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width:650px) {
+    .cards {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    #head_link {
+        font-size: calc(11px + 2.7vw);
+    }
+    .quslink {
+        font-size: calc(11px + 2.7vw);
+    }
+    .headingp {
+        flex-direction: column;
+    }
+    #phyInput {
+        margin-top: 0px;
+        width: 270px;
+    }
+    #mathInput {
+        margin-top: 0px;
+        width: 270px;
+    }
+    .phyinqus {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .searchphy {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    #cheInput {
+        margin-top: 0px;
+        width: 270px;
+    }
+    .cheinqus {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .searchche {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .mathinqus {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .searchmath {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .subopt_img {
+        flex-direction: column-reverse;
+    }
+}

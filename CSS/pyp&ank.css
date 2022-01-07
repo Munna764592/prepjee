@@ -1,0 +1,324 @@
+/* navbar of previous y p   */
+
+.navbar1 {
+    background-color: #eae7e7;
+    padding: 0px;
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: +1;
+    top: 0;
+}
+
+.navbar-brand img {
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+}
+
+.navimg {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+/* searchbar total papers  */
+
+#myInput {
+    background-color: transparent;
+    border-radius: 1.25rem;
+    color: #4fa90a;
+    border: 2px solid rgb(255 212 0);
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    padding: 7px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navins {
+    display: flex;
+    align-items: center;
+}
+
+.navins h3 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    /* background: linear-gradient(to right, rgb(117, 236, 230), rgb(12, 151, 179)); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-color: #f39f86;
+    background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+}
+
+.searchbar {
+    width: 74%;
+    float: right;
+}
+
+.searchbarans {
+    width: 88%;
+    float: right;
+}
+
+.search {
+    float: right;
+    justify-content: right;
+    width: 270px;
+}
+
+#btns {
+    border-radius: 1.25rem;
+}
+
+.heading1 {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: #4fa90a;
+    margin-top: 90px;
+}
+
+.heading2 {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    color: #4fa90a;
+    margin: 20px;
+}
+
+
+/* table section   */
+
+.main3 {
+    width: 96%;
+    display: block;
+    margin: auto;
+}
+
+.width_tbody1 {
+    width: 25%;
+}
+
+.width_tbody2 {
+    width: 70%;
+}
+
+#myTablead,
+#myTable {
+    border: 1px solid rgb(175, 173, 173);
+    outline: none;
+    width: 100%;
+    border-radius: 4px;
+}
+
+#myTablead td,
+th {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+#myTable td,
+th {
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    text-align: center;
+}
+
+#myTable td {
+    border: 0.3px solid rgb(175, 175, 175);
+}
+
+#myTablead tr,
+#myTable tr {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#myTablead th,
+#myTable th {
+    font-size: 22px;
+    color: white;
+    background-color: #f7ed6e;
+    border-top: 4px;
+}
+
+#myTablead tbody,
+#myTable tbody {
+    overflow-y: auto;
+    max-height: 400px;
+    display: block;
+    width: fit-content;
+}
+
+
+/* ans & questions css part   */
+
+.footerbgp {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(27, 27, 27);
+    margin-top: 180px;
+    height: 100%;
+    width: 100%;
+}
+
+.ans_mail {
+    display: flex;
+    width: 85%;
+    justify-content: right;
+}
+
+.anshead {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.elaborate {
+    display: block;
+    margin-top: 110px;
+}
+
+.elaborate h3 {
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.elaborate h5 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.anscon {
+    border-radius: 7px;
+    background-color: rgb(235, 231, 231);
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+}
+
+.qus_img {
+    width: 100%;
+}
+
+.qus_img img {
+    display: block;
+    margin: auto;
+    border: 1px solid rgb(148, 147, 147);
+    border-radius: 2px;
+}
+
+.usersend {
+    padding: 4px;
+    width: 145px;
+    background-color: rgb(179, 250, 179);
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.useri {
+    display: flex;
+}
+
+.useri img {
+    height: 30px;
+    width: 30px;
+    border-radius: 200px;
+}
+
+.yourAns {
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.yourAns h5 {
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+#yourAns textarea {
+    height: 100px;
+}
+
+.ansbrowse {
+    display: block;
+    margin-top: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ans_browse {
+    max-height: 450px;
+    overflow-y: auto;
+    position: relative;
+}
+
+.ansbrowse h2 {
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 30px;
+}
+
+.ver_admin {
+    color: rgb(53, 212, 53);
+    margin-right: 2px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.ver_admin i {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 0px;
+}
+
+.admin_vertop {
+    position: absolute;
+    top: 0;
+}
+
+
+/* responsive design   */
+
+@media only screen and (max-width:990px) {
+    .table {
+        margin: 10px;
+    }
+    .main3 {
+        width: 96%;
+    }
+    .anscon {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .navins {
+        display: flex;
+    }
+    .search {
+        width: 300px;
+        margin-bottom: 5px;
+    }
+    .searchbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .heading1 {
+        margin-top: 176px;
+    }
+    .navimg {
+        width: 100%;
+    }
+    .elaborate {
+        margin-top: 150px;
+    }
+    .anscon {
+        width: 100%;
+    }
+}
